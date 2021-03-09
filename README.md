@@ -56,5 +56,5 @@ value.converter=org.apache.kafka.connect.storage.StringConverter
 - Start the connect cluster
 
 ```bash
-./bin/connect-standalone  ./etc/connect-standalone.properties sftp-source.properties
+./bin/connect-standalone  ./connect-standalone.properties ./sftp-source.properties
 ```
